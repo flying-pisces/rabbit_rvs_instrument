@@ -1,0 +1,4 @@
+Log created	2019/06/27 09:30:28.220
+09:30:28.220	Entering InitializeTrueTest
+09:30:28.261	Calibration path set to: C:\Radiant Vision Systems Data\Camera Data\Calibration Files\0086329575_CalibrationDB.calx
+09:44:28.658	TrueTest.InitializeCamera Failed

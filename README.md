@@ -1,2 +1,2 @@
 # rabbit_rvs_instrument
-Radiant Equipment Repository
+Instrument driver repo from vendor Radiant Vision Systems

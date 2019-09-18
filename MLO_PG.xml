@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MLO_PG
+</name>
+</assembly>
+<members>
+<member name="M:MLO_PG.MLO_PG.InitializeSerialPort">
+	<summary>
+ Initializes serial port.
+ </summary>
+</member><member name="M:MLO_PG.MLO_PG.CloseSerialPort">
+	<summary>
+ Closes serial port.
+ </summary>
+</member><member name="M:MLO_PG.MLO_PG.PLCSerialPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+	<summary>
+ Listens for commands from the PLC serial port and calls functions depending upon command received.
+ </summary>
+</member><member name="M:MLO_PG.MLO_PG.SendPLCCommand(MLO_PG.MLO_PG.PLCCommandEnum,System.String[])">
+	<summary>
+ Sends Cmd over serial port.
+ </summary>
+</member><member name="M:MLO_PG.MLO_PG.ApplicationIsActivated">
+	<summary>Returns true if the current application has focus, false otherwise</summary>
+</member><member name="M:MLO_PG.MotoScanner.Open">
+	<summary>
+ Searches for and initializes scanner.  Scanner events are also subscribed to.
+ </summary>
+</member><member name="M:MLO_PG.MotoScanner.OnBarcodeEvent(System.Int16,System.String@)">
+	<summary>
+ Handles the Barcode event raised by the scanner.
+ </summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.BuildInfo">
+	<summary>
+  Looks up a localized string similar to Path: .
+Working Copy Root Path: C:\Repository\applications\Old Version\MLO
+URL: https://subversion.radiantzemax.com:8443/svn/radiant/applications/standardApps/trueTEST/trunk/trueTEST/customProjects/MLO
+Relative URL: ^/applications/standardApps/trueTEST/trunk/trueTEST/customProjects/MLO
+Repository Root: https://subversion.radiantzemax.com:8443/svn/radiant
+Repository UUID: ad770b50-9752-df4a-a355-4aa130a69856
+Revision: 108957
+Node Kind: directory
+Schedule: normal
+Last Changed Author: Build.Runner@RZ
+ [rest of string was truncated]";.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.CheckMark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.PCConnected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.PCDisconnected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MLO_PG.My.Resources.Resources.XMark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:MLO_PG.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

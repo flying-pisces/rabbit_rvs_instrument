@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GradingEngine
+</name>
+</assembly>
+<members>
+<member name="P:GradingEngine.PointGrading.BinGradeLevelsCreator">
+	<summary>
+ For serialization and internal use only, do not set in code outside class.
+ </summary>
+</member><member name="M:GradingEngine.PolynomialTransform.#ctor(System.String,System.Guid,System.Collections.Generic.IEnumerable{System.Single})">
+	<summary>
+ Nth order polynomial transform
+ </summary>
+	<param name="coefficients">Slope in line equation y=mx+c</param>
+</member><member name="P:GradingEngine.GradeRuleSimpleBinning.BinGradeLevelsCreator">
+	<summary>
+ For serialization and internal use only, do not set in code outside class.
+ </summary>
+</member><member name="M:GradingEngine.NotificationBase.VerifyPropertyName(System.String)">
+	<summary>
+ Warns the developer if this object does not have
+ a public property with the specified name. This 
+ method does not exist in a Release build.
+ </summary>
+</member><member name="P:GradingEngine.NotificationBase.ThrowOnInvalidPropertyName">
+	<summary>
+ Returns whether an exception is thrown, or if a Debug.Fail() is used
+ when an invalid property name is passed to the VerifyPropertyName method.
+ The default value is false, but subclasses used by unit tests might 
+ override this property's getter to return true.
+ </summary>
+</member><member name="P:GradingEngine.CompoundGradingRule.BinGradeLevelsCreator">
+	<summary>
+ For serialization and internal use only, do not set in code outside class.
+ </summary>
+</member><member name="M:GradingEngine.LinearTransform.#ctor">
+	<summary>
+ Default line equation y=mx+c (m=1, c=0)
+ </summary>
+</member><member name="M:GradingEngine.LinearTransform.#ctor(System.String,System.Guid,System.Single,System.Single)">
+	<summary>
+ Standard line equation transform
+ </summary>
+	<param name="m">Slope in line equation y=mx+c</param>
+	<param name="c">Intercept in line equation y=mx+c</param>
+</member><member name="P:GradingEngine.AnalysisGradingRule.XML_Transform">
+	<summary>
+ For serialization only, do not set in code. Transforms must be deserialized first and active grading manager set
+ </summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.movetab">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.movetab2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.nodrop">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:GradingEngine.My.Resources.Resources.nomovetab">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:GradingEngine.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:GradingEngine.ConditionalGradeRuleSimpleBinning.MatchValuePairCreator">
+	<summary>
+ For serialization and internal use only, do not set in code outside class.
+ </summary>
+</member>
+</members>
+</doc>
